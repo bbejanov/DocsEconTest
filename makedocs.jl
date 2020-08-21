@@ -29,5 +29,5 @@ makedocs(
 )
 
 if get(ENV, "CI", nothing) == "true"
-    deploydocs(repo="github.com/bankofcanada/DocsEcon.jl.git")
+    deploydocs(repo="github.com/bbejanov/DocsEconTest.jl.git")
 end
